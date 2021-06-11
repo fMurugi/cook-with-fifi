@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fMurugi/cook-with-fifi/issues"
   },
-  "homepage": "https://github.com/fMurugi/cook-with-fifi#readme"
+  "homepage": "https://github.com/fMurugi/cook-with-fifi#readme",
+  "dependencies": {
+    "hexo": "^5.4.0"
+  }
 }
