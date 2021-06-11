@@ -35,5 +35,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "start": "hexo server"
+  },
+  "hexo": {
+    "version": "5.4.0"
   }
 }
