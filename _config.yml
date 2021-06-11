@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Cook with fifi
 subtitle: ''
-description: ''
+description: 
 keywords:
-author: John Doe
+author: fMurugi 
 language: en
-timezone: ''
+timezone: UTC+3
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
