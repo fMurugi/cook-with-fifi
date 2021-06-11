@@ -1,0 +1,24 @@
+{
+  "name": "cook-with-fifi",
+  "version": "1.0.0",
+  "description": "Store Recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fMurugi/cook-with-fifi.git"
+  },
+  "keywords": [
+    "food",
+    "recipes",
+    "cook"
+  ],
+  "author": "fMurugi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fMurugi/cook-with-fifi/issues"
+  },
+  "homepage": "https://github.com/fMurugi/cook-with-fifi#readme"
+}
