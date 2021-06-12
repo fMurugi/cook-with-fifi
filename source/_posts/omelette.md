@@ -1,12 +1,12 @@
 ---
-title: omlette
+title: omelette
 date: 2021-06-12 19:21:44
 tags:
 ---
 
-# Ingridients
+# Ingredients
 - 2 eggs
-- 1 fresh tomatoe
+- 1 fresh tomato
 - 1/2 onion
 - salt
 - veg oil
