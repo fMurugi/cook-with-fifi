@@ -1,0 +1,20 @@
+diff --git a/node_modules/hexo/lib/hexo/index.js b/node_modules/hexo/lib/hexo/index.js
+index 944afd7..6add72e 100644
+--- a/node_modules/hexo/lib/hexo/index.js
++++ b/node_modules/hexo/lib/hexo/index.js
+@@ -25,6 +25,7 @@ const loadDatabase = require('./load_database');
+ const multiConfigPath = require('./multi_config_path');
+ const { sync } = require('resolve');
+ const { deepMerge, full_url_for } = require('hexo-util');
++const _= require("lodash")
+ 
+ const libDir = dirname(__dirname);
+ const dbVersion = 1;
+@@ -386,6 +387,7 @@ class Hexo extends EventEmitter {
+         this.env = env;
+         this.view_dir = join(theme_dir, 'layout') + sep;
+         this.site = localsObj;
++        this._ = _;
+       }
+     }
+ 
