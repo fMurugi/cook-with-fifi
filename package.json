@@ -39,7 +39,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "start": "hexo server",
-    "dev": "nodemon --watch themes --watch source -e  scss,md,jade,pug --exec 'hexo server'",
+    "dev": "npx nodemon --watch themes --watch source -e  scss,md,jade,pug --exec 'hexo server'",
     "postinstall": "patch-package"
   },
   "hexo": {

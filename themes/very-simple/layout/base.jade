@@ -61,7 +61,7 @@ html
 
     // use checkbox hack for toggle nav-bar on small screens
     input#menu(type="checkbox")
-
+    input#search(type="text" placeholder="search")
     // Navigation Links
     nav#nav
       .container
@@ -71,6 +71,16 @@ html
     #header-margin-bar
 
     block main
+    - var priceAry = [{"name":"pilau"},{"price":"245"},{"price":"15"},{"price":"55"},{"price":"50"},{"price":"35"},{"price":"75"},{"price":"150"},{"price":"175"},{"price":"55"},{"price":"125"},{"price":"100"}]
+- var newAry = priceAry.slice(0);
+- priceAry.sort(function(a, b){
+ - return b.price-a.price
+- })
+- for (var i = 0; i < priceAry.length; i++) {
+  - priceAry[i].order = i
+- }
+
+
 
     footer#footer
       .container
